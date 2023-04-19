@@ -1,0 +1,12 @@
+Code Review should be treated as teaching opportunities rather then fault finding process
+As a team lead your focus should be on team success instead of Focus on your individual contribution to software
+Code review purpose is to help people for learning and add value to people knowledge and add value to system
+Whenever you find some pattern wrong in code then add that into team best practices so any other team member will do not do that same mistake
+While reviewing code we are looking lots of things like below :
+Is this code doing expected requirement or not? Means suppose we are building the feature and this code is building that feature or not? This is the primary thing that we are looking first
+Next thing is are we following the common standard best practices or not ? Like naming convention or closing resource or not ? But these things like naming convention and closing resources check can be automated by tool and i don't find this is where good use of people to check manually
+Next thing which cannot be done by automated tools like we are following three layer aarchitecture and are we following or not ? And certain validation we are performing in project do are we doing that in code or not ?
+The another think which not cached by automated tools is how are you handling failures and how are you dealing with slowness suppose you are calling another api and what if there is a latency issue, those things can be checked by people only in review code process 
+So mantainbility, scalibility and performance of the code needs to check in code review
+Code review is not science but it's art
+You should not check functions requirement are implemented or not only but you should also check non functional requirements are implemented or not?
