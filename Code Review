@@ -10,3 +10,21 @@ The another think which not cached by automated tools is how are you handling fa
 So mantainbility, scalibility and performance of the code needs to check in code review
 Code review is not science but it's art
 You should not check functions requirement are implemented or not only but you should also check non functional requirements are implemented or not?
+Code Review is an expensive process because someone needs to give time on it by stoping their productive time
+Your code is readable, maintainable or not it's not validate by tools thats why code review person needs to check it and readability, maintainablity are the first thing that I am looking while reviewing the code
+Is this code changeable easily or not ? Clean or not? If any features need to add in this code then is it easy or hard because of not understandable code?
+Leave the code in better shape when you started working on it ( Boys Scot rule)
+Suppose you are changing at one place, and you can see something bad just below your line and it can be make it better then do that make it clean if possible
+After that I was looking that whatever he did in code is it done in efficient manner or is there any optimization we can do in it because we know one thing can be done in 10 different ways
+Shiva said that , I am learning one thing from my teach lead is that whenever we are building festure then my teach lead told me that ok deploy it on dev env and test possitive and negative cases and try to check log files that for negative case are you able identify the issue from log file or not ? They said the logging is very important so proper logging or not there I am checking in code review
+I am very keen about logging
+Readability is primary thing
+As one service is communicating to another service so I am also checking that timeout is handled properly or not ?
+Code quality is an attitude that team should have
+Readability
+Debuggability (logging)
+Efficiency
+How do you have handled failures means resilience is important
+I have seen that developer are using fancy things to chow off that they know it but this is wrong when for loop is Efficient then why we should use stream 
+
+
