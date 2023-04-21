@@ -26,5 +26,16 @@ Debuggability (logging)
 Efficiency
 How do you have handled failures means resilience is important
 I have seen that developer are using fancy things to chow off that they know it but this is wrong when for loop is Efficient then why we should use stream 
+Sonar has lot's of things like naming conven and bad practices that sonar will tell you but sonar has lot's of rules and learning to all will take more time and some organization's defines their set of rules in Sonar according to their requirements
+Sonar is also telling you security hotspot issues
+In sonar somethings we need to ignore if not as possible based on your requirements
+Their are others sa well like checkstyle , pnb , find bugs Rae simmilar to sonar
+Recently I have use Google java format tool
+In javascript we have eslint and in typescript we have tslint and I think eslint will have 200 to 300
+ rules it's insane and it is very much opinionated
+Add Sonar from your day 1 of project and if you are adding it after sometime then it is going to be create complexity
+If you listen your Intelij ide then lots of sonar rules atomatically cover , it's suggestions lot's of things
+It's hard to add Sonar in existing projects but better late is better then never do so add it now because further you delay it's going to be more worse
+Customizing the rules in Sonar
 
 
